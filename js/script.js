@@ -5,14 +5,14 @@ window.onscroll = function() {scrollFunction()};
             if(screenSize > 600){
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                     document.getElementById("navbar").style.background = "#15141B";
-                    document.getElementById("logo").style.width = "125px";
-                    document.getElementById("logo").style.height = "172px";
+                    document.getElementById("logo").style.width = "40px";
+                    document.getElementById("logo").style.height = "55px";
                     document.getElementById("navitem").style.fontSize="20px";
-                    document.getElementById("navList1").style.padding = "42px 0 0 40px";
-                    document.getElementById("navList2").style.padding = "42px 0 0 40px";
-                    document.getElementById("navList3").style.padding = "42px 0 0 40px";
-                    document.getElementById("navList4").style.padding = "42px 0 0 40px";
-                    document.getElementById("navList5").style.padding = "42px 0 0 40px";
+                    document.getElementById("navList1").style.padding = "22px 0 0 40px";
+                    document.getElementById("navList2").style.padding = "22px 0 0 40px";
+                    document.getElementById("navList3").style.padding = "22px 0 0 40px";
+                    document.getElementById("navList4").style.padding = "22px 0 0 40px";
+                    document.getElementById("navList5").style.padding = "22px 0 0 40px";
                 } else {
                     document.getElementById("navbar").style.background = "none";
                     document.getElementById("logo").style.width = "125px";
