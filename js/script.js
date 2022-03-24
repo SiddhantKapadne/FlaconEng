@@ -5,8 +5,8 @@ window.onscroll = function() {scrollFunction()};
             if(screenSize > 600){
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                     document.getElementById("navbar").style.background = "#15141B";
-                    document.getElementById("logo").style.width = "40px";
-                    document.getElementById("logo").style.height = "55px";
+                    document.getElementById("logo").style.width = "75px";
+                    document.getElementById("logo").style.height = "105px";
                     document.getElementById("navitem").style.fontSize="20px";
                     document.getElementById("navList1").style.padding = "22px 0 0 40px";
                     document.getElementById("navList2").style.padding = "22px 0 0 40px";
