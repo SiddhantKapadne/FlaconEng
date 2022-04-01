@@ -419,11 +419,11 @@ ul#navitem li::before {
     margin: 25px auto;
 }
 .project-content{
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
     font-family: 'Poppins';
-    color: #2c2c2c;
-    font-weight: 700;
+    color: #2A2A2A;
+    font-weight: 400;
     padding: 20px;
     border-radius: 20px;
     background: radial-gradient(87.25% 87.25% at 50% 50%, rgba(255, 255, 255, 0.74) 0%, rgba(255, 255, 255, 0.23) 100%);
@@ -436,6 +436,59 @@ ul#navitem li::before {
     border: 2px solid #5c82c9;
     border-radius: 15px;
     cursor: pointer;
+}
+/* industrial Project page */
+.project .container{
+    height: 450px;
+    background-image: url(./assets/Images/projectBg.jpg);
+    background-size: cover;
+}
+.project .container .header {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: flex-end;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.7);     
+}
+.project .container .header p{
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: var(--font-Roboto);
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.num-set{
+    text-align: center;
+    margin: 20px auto;
+}
+.img-num{
+    width: 345px;
+}
+.ab-set{
+    text-align: center;
+    margin: 20px auto;
+}
+.img-ab{
+    width: 1000px;
+}
+.xyz-set{
+    text-align: center;
+    margin: 20px auto;
+}
+.img-xyz{
+    width: 345px;
+}
+.industrial-text{  
+    width: 100%;  /* End Individual page */
+}
+.industrial-text p{
+    font-size: 28px;
+    text-align: justify;
+    font-weight: 300;
+    font-family: var(--font-Raleway);
+    color: var(--secondary-color);
+    padding: 40px 245px;
 }
 /* Contact */
 .section_contact{
