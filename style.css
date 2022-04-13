@@ -618,7 +618,7 @@ ul#navitem li::before {
 }
 /* Associates */
 .section_acc{
-    height: 250px;
+    height: 295px;
     text-align: center;
 }
 .assoc-heading{
@@ -630,7 +630,7 @@ ul#navitem li::before {
     color: #4F4F4F;
     padding-top: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .section_acc img{
     margin: 0 70px;
