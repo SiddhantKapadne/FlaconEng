@@ -238,6 +238,9 @@ ul#navitem li::before {
 .service_Bg3{ /* Individual page */
     background-image: url('./assets/Images/serviceThree.jpg');
 }
+.service_Bg4{ /* Individual page */
+    background-image: url('./assets/Images/about.jpg');
+}
 .service_Title .container{
     display: flex;
     flex-direction: column  ;
@@ -1260,6 +1263,9 @@ ul#navitem li::before {
     }
     .service_Bg3{ /* Individual page */
         background-image: url('./assets/Images/serviceThree.jpg');
+    }
+    .service_Bg4{ /* Individual page */
+        background-image: url('./assets/Images/about.jpg');
     }
     .service_Title .container{
         display: flex;
